@@ -3,6 +3,8 @@ package domain;
 public class RepostsInfo {
     private int count;
     private boolean canRepost;
+    private boolean userReposted;
+    
 
     public int getCount() {
         return count;
@@ -20,4 +22,11 @@ public class RepostsInfo {
         this.canRepost = canRepost;
     }
 
+    public boolean isUserReposted() {
+        return userReposted;
+    }
+
+    public void setUserReposted(boolean userReposted) {
+        this.userReposted = userReposted;
+    }
 }
